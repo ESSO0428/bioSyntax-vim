@@ -5,7 +5,7 @@
 " Version: v0
 
 if exists("syntax_on")
-        syntax reset
+  syntax reset
 	colorscheme bioSyntax	
 endif
 

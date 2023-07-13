@@ -1,11 +1,11 @@
-if exists("syntax_on")
-	syntax reset
-	colorscheme bioSyntax
-	set nowrap
-endif
-
+" if exists("syntax_on")
+" 	syntax reset
+" 	colorscheme bioSyntax
+" 	set nowrap
+" endif
+colorscheme bioSyntax
 " To be implemented:
-" Command to switch between types of fasta coloring
+" Command to switch between types of fasta-hc coloring
 " from vim terminal directly
 "
 " For now to use High Contrast theme, 

@@ -1,16 +1,16 @@
 " Sam syntax file
 " Language: SAM
 " Filetypes: .sam 
-" Maintainer: bioSyntax
+" Maintainer: biosyntax
 " Version: v0
 
 if exists("syntax_on")
 	syntax reset
-	" sam syntax is per-line so restrict context to one line
+    " sam syntax is per-line so restrict context to one line
     syntax sync minlines=1
-  " sam are wide files; remove word-wrapping
-	colorscheme bioSyntax
-    set nowrap
+    " sam are wide files; remove word-wrapping
+    colorscheme biosyntax
+    " set nowrap
 endif
 
 " SAM DATA Selection

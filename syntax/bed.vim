@@ -1,10 +1,10 @@
 if exists("syntax_on")
 	syntax reset
 	colorscheme bioSyntax
-	set nowrap
+	" set nowrap
 endif
 
-set background=dark
+" set background=dark
 
 
 " Robust Column Selection in Vim Syntax

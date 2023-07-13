@@ -4,11 +4,11 @@
 " Maintainer: bioSyntax
 " Version: v0
 
-if exists("syntax_on")
-	syntax reset
-	colorscheme bioSyntax
-endif
-
+" if exists("syntax_on")
+" 	syntax reset
+" 	colorscheme bioSyntax
+" endif
+colorscheme bioSyntax
 " Robust Column Selection in Vim Syntax
 " -- This logic can be extended for N columns
 " -- To add highlighting to a column add it to the contains list (submatch)

@@ -1,8 +1,8 @@
-if exists("syntax_on")
-	syntax reset
-	colorscheme bioSyntax
-	set nowrap
-endif
+" if exists("syntax_on")
+	" syntax reset
+	" set nowrap
+" endif
+colorscheme bioSyntax
 
 " In the future, implement 'context-aware' fasta
 " in which Nucleotides vs. Amino Acid sequences are detected

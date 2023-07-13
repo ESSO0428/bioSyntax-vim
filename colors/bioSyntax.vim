@@ -1,5 +1,5 @@
-set background=dark
-highlight clear
+" set background=dark
+" highlight clear
 
 if exists("syntax_on")
   syntax reset
@@ -7,20 +7,20 @@ endif
 
 let g:colors_name = "bioSyntax"
 " set Line Numbering color to gray
-highlight LineNr ctermfg=grey
+" highlight LineNr ctermfg=grey
 
 " bioSyntax Theme Standard
 " Generic Classes
-highlight   normal	cterm=NONE	guibg=NONE	guifg=NONE	ctermbg=NONE	ctermfg=NONE
-highlight	string	cterm=NONE	guibg=NONE	guifg=#FF4641	ctermbg=NONE	ctermfg=160
+" highlight   normal	cterm=NONE	guibg=NONE	guifg=NONE	ctermbg=NONE	ctermfg=NONE
+" highlight	string	cterm=NONE	guibg=NONE	guifg=#FF4641	ctermbg=NONE	ctermfg=160
 highlight	quoteString	cterm=NONE	guibg=NONE	guifg=#FF4641	ctermbg=NONE	ctermfg=160
 highlight	numeric	cterm=NONE	guibg=NONE	guifg=#0087af	ctermbg=NONE	ctermfg=31
 highlight	numeric2	cterm=NONE	guibg=NONE	guifg=#AE81FF	ctermbg=NONE	ctermfg=61
 highlight	header	cterm=bold	guibg=#3E3D32	guifg=#E6DB74	ctermbg=0	ctermfg=253
 highlight	headerbw	cterm=NONE	guibg=NONE	guifg=#BDB691	ctermbg=NONE	ctermfg=137
-highlight	comment	cterm=NONE	guibg=NONE	guifg=#B1B1AF	ctermbg=NONE	ctermfg=250
-highlight	comment2	cterm=NONE	guibg=NONE	guifg=#B1B1AF	ctermbg=NONE	ctermfg=245
-highlight	url	cterm=NONE	guibg=NONE	guifg=#66D9EF	ctermbg=NONE	ctermfg=45
+" highlight	comment	cterm=NONE	guibg=NONE	guifg=#B1B1AF	ctermbg=NONE	ctermfg=250
+" highlight	comment2	cterm=NONE	guibg=NONE	guifg=#B1B1AF	ctermbg=NONE	ctermfg=245
+" highlight	url	cterm=NONE	guibg=NONE	guifg=#66D9EF	ctermbg=NONE	ctermfg=45
 
 highlight	keyword1	cterm=NONE	guibg=NONE	guifg=#F92672	ctermbg=NONE	ctermfg=162
 highlight	keyword2	cterm=NONE	guibg=NONE	guifg=#A6E22E	ctermbg=NONE	ctermfg=113

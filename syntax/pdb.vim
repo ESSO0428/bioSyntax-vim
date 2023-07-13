@@ -1,12 +1,12 @@
 " Vim syntax file
 " Language: biomolecule structure files
 
-if exists("syntax_on")
-	syntax reset
-	colorscheme bioSyntax
-	set nowrap
-endif
-
+" if exists("syntax_on")
+" 	syntax reset
+" 	colorscheme bioSyntax
+" 	set nowrap
+" endif
+colorscheme bioSyntax
 " to match the following string with keywords
 syn match pdbHeader '^HEADER\s\+.*\n'
 syn match pdbTitle '^TITLE\s\+.*\n'

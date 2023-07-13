@@ -1,11 +1,11 @@
-if exists("syntax_on")
-	syntax reset
-	colorscheme bioSyntax
-	set nowrap
-endif
+" if exists("syntax_on")
+" 	syntax reset
+" 	colorscheme bioSyntax
+" 	set nowrap
+" endif
 
-set background=dark
-
+" set background=dark
+colorscheme bioSyntax
 " Robust Column Selection in Vim Syntax
 " " -- This logic can be extended for N columns
 " " -- To add highlighting to a column add it to the contains list (submatch)

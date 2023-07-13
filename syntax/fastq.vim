@@ -1,9 +1,9 @@
-if exists("syntax_on")
-	syntax reset
-	colorscheme bioSyntax
-	set nowrap
-endif
-
+" if exists("syntax_on")
+" 	syntax reset
+" 	colorscheme bioSyntax
+" 	set nowrap
+" endif
+colorscheme bioSyntax
 syntax match gradbw1  "[/\!-/\$]"      contained
 syntax match gradbw2  "[/\%-/\(]"      contained
 syntax match gradbw3  "[/\)-/\,]"      contained

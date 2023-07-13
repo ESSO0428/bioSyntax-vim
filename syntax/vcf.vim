@@ -1,7 +1,7 @@
 " Vim syntax file
 " Language: VCF v4.3
 " Filetypes: .vcf 
-" Maintainer: bioSyntax
+" Maintainer: biosyntax
 " Version: v0
 
 "TODO
@@ -11,13 +11,13 @@ if exists("syntax_on")
 	syntax reset
 	" VCF syntax is per-line so restrict context to one line
     syntax sync minlines=1
-	colorscheme bioSyntax
+    colorscheme biosyntax
     " VCF are wide files; remove word-wrapping
-    set nowrap
+    " set nowrap
 endif
 
 
-" Syntax Organization
+" syntax Organization
 " Use 'containedin=' when a syntax defintion must only be matched within only one region
 " Use 'contained' when a syntax definition may be matched from two or more regions
 " All region definitions are limited to 'oneline' in VCF

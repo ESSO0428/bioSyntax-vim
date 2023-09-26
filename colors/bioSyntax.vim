@@ -5,7 +5,9 @@ if exists("syntax_on")
   syntax reset
 endif
 
-let g:colors_name = "bioSyntax"
+" let g:colors_name = "bioSyntax"
+" I don't know what this does except make the status line gray, so I comment it (Andy6)
+
 " set Line Numbering color to gray
 " highlight LineNr ctermfg=grey
 
